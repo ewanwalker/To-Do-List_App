@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c3e50;
+    color: white;
+    height: 60px;
+    padding: 0 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+nav h {
+    font-size: 1.5em;
+    margin: 0;
+    font-weight: bold;
+}
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin: 0;
+}
+nav ul li {
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+nav ul li a {
+    font-size: 0.9em;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+nav ul li a:hover {
+    background-color: #34495e;
+    transform: translateY(-2px);
+}
+main #listContainer .todo-list {
+    background-color: #34495e;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1em;
+    margin: .1em .1em;
+    max-width: 12.3em;
+}
+main #listContainer h2 {
+    color: #ecf0f1;
+    text-align: center;
+    width: auto;
+    font-size: 1.2em;
+    margin: 0 0 10px;
+}
+main #listContainer button {
+    background-color: #e74c3c;
+    color: white;
+    padding: .4em;
+    margin: .1em .1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+main #listContainer button:hover {
+    background-color: #c0392b;
+    transform: translateY(-2px);
+}
+main #listContainer button:active {
+    background-color: #e74c3c;
+    transform: translateY(0);
+}
+main #listContainer input[type="text"] {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+main #listContainer input[type="text"]:focus {
+    border-color: #2c3e50;
+    outline: none;
+}
+main #listContainer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+main #listContainer li {
+    background-color: #ecf0f1;
+    color: #34495e;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main #listContainer li button {
+    background-color: #e74c3c;
+    color: white;           
+    padding: 0.2em 0.5em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+main #listContainer li button:hover {
+    background-color: #c0392b;
+    transform: translateY(-2px);
+}
+main #listContainer li button:active {
+    background-color: #e74c3c;
+    transform: translateY(0);
+}
