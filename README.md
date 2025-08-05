@@ -1,9 +1,9 @@
 # To-Do-List_App
-A simple to do list
-currently works on html will be updated to work only through electron
-cd into the to do list app directory
+A simple to do list application to keep tasks in order and organised
 
-To start run:
+To start:
+
+cd into the To-Do-List_App directory
 
 npm install electron
 
