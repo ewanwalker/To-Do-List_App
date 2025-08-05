@@ -1,19 +1,16 @@
 {
   "name": "to-do-list_app",
   "version": "1.0.0",
-  "description": "simple to do list app",
+  "description": "A Simple to do list application",
   "license": "ISC",
-  "author": "",
+  "author": "Ewan Walker",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "JS/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron ."
   },
   "dependencies": {
-    "body-parser": "^2.2.0",
-    "cors": "^2.8.5",
-    "electron": "^37.2.4",
-    "express": "^5.1.0"
+    "electron": "^37.2.4"
   }
 }

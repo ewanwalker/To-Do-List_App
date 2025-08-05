@@ -48,6 +48,7 @@ main #listContainer .todo-list {
     padding: 1em;
     margin: .1em .1em;
     max-width: 14em;
+    position: absolute;
 }
 main #listContainer button {
     background-color: #e74c3c;
@@ -87,5 +88,4 @@ main #listContainer .list-item{
     margin: 0.2em 0;
     box-sizing: border-box;
     width: 100% ;
-
 }
